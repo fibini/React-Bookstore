@@ -2,7 +2,7 @@
 
 # Project Name
 
-> Description the project.
+> A Bookstore App which allows you to add and remove your favorite books. Built using React
 
 
 ## Built With
@@ -26,14 +26,6 @@ copy the repository from the drop down code menu
 ### Install
 clone the repository to your local machine through your code editor using git clone
 run npm install and then npm start
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
 
 ## Authors
 
