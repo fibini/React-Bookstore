@@ -7,12 +7,12 @@ import './App.css';
 
 const App = () => (
   <BrowserRouter>
-  <Navbar />
-  <Routes>
-    <Route exact path="/" element={<Home />} />
-    <Route exact path="/categories" element={<Categories />} />
+    <Navbar />
+    <Routes>
+      <Route exact path="/" element={<Home />} />
+      <Route exact path="/categories" element={<Categories />} />
     </Routes>
   </BrowserRouter>
-)
+);
 
 export default App;

@@ -1,14 +1,14 @@
-import React from "react";
-import Book from "./Book";
-import Form from "./Form";
+import React from 'react';
+import Book from './Book';
+import Form from './Form';
 
 const books = [{
-  title:"Fifty Shades of Blue",
-  author:"Fabien",
-  id: 1
+  title: 'Fifty Shades of Blue',
+  author: 'Fabien',
+  id: 1,
 }];
 
-const Home = (props) => (
+const Home = () => (
   <div>
     <ul>
       {books.map((book) => (

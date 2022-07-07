@@ -1,13 +1,20 @@
-import React from "react";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 const Book = (props) => {
-  const {title, author} = props
+  const { title, author } = props;
   return (
     <>
       <li>{title}</li>
       <li>{author}</li>
-      <button>REMOVE</button>
+      <button type="button">REMOVE</button>
     </>
   );
+};
+
+Book.propTypes = {
+  title: PropTypes.string.isRequired,
+  author: PropTypes.string.isRequired,
+
 };
 export default Book;
