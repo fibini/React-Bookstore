@@ -15,17 +15,18 @@
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+Step 1:
+-Clone this repo locally using git in the command line and the following command.
 
-### Prerequisites
-Github profile and code editor
+> git clone https://github.com/fibini/React-Bookstore
 
-### Setup
-copy the repository from the drop down code menu
+Step 2:
+-In the terminal, you can run:
+> cd Bookstore
+> npm install
+> npm start
 
-### Install
-clone the repository to your local machine through your code editor using git clone
-run npm install and then npm start
+
 
 ## Authors
 
