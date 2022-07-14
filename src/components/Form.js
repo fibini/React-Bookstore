@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
+import newBook from '../redux/books/newbook';
 import { addBook } from '../redux/books/books';
 
 const Form = () => {
@@ -10,13 +11,10 @@ const Form = () => {
 
   const handleClick = (e) => {
     e.preventDefault();
-    dispatch(
-      addBook({
-        title,
-        author,
-        id: Math.random(),
-      }),
-    );
+    dispatch(addBook(newBook(title, author)));
+
+    setTitle('');
+    setAuthor('');
   };
 
   return (
