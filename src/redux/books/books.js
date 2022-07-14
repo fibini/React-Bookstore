@@ -6,21 +6,6 @@ const REMOVE_BOOK = 'bookstore/books/REMOVE_BOOK';
 const GET_BOOKS = 'bookstore/books/GET_BOOKS';
 const API_URL = 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/j5zVHdOsweGs1rN18eHv/books';
 
-// export const booksReducer = (state = [], action) => {
-//   switch (action.type) {
-//     case GET_BOOKS:
-//       return [...state, action.id];
-
-//     case ADD_BOOK:
-//       return [...state, action.id];
-
-//     case REMOVE_BOOK:
-//       return [...state.filter((book) => book.id !== action.id)];
-
-//     default:
-//       return state;
-//   }
-// };
 const bookList = (obj) => {
   const result = [];
   const keys = Object.keys(obj);
