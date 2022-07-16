@@ -1,0 +1,60 @@
+.Navbar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #fff;
+  gap: 40px;
+}
+
+.Navbar-logo {
+  color: #0290ff;
+}
+
+.Navbar-header {
+  margin-left: 3rem;
+}
+
+.Navbar-list {
+  display: flex;
+  margin: 0;
+  flex-grow: 1;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+}
+
+.Navbar-icon {
+  display: flex;
+  align-items: center;
+  margin-right: 3rem;
+  width: 30px;
+  justify-content: center;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 50%;
+}
+
+.fauser-icon {
+  color: #0290ff;
+}
+
+.Navbar-books {
+  color: #c3c3c3;
+}
+
+.nav-link {
+  opacity: 0.5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.813rem;
+  color: #121212;
+  letter-spacing: 1.9px;
+  text-decoration: none;
+}
+
+.nav-link.active {
+  text-decoration: underline;
+  opacity: 1;
+  color: #121212;
+}
