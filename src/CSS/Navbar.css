@@ -8,6 +8,10 @@
   gap: 40px;
 }
 
+.Navbar-logo {
+  color: #0290ff;
+}
+
 .Navbar-header {
   margin-left: 3rem;
 }
