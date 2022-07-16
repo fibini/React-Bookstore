@@ -1,6 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
+React-Bookstore
 
 > A Bookstore App which allows you to add and remove your favorite books. Built using React
 
